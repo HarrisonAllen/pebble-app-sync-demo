@@ -1,0 +1,29 @@
+{
+  "name": "app-sync",
+  "author": "Harrison Allen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "App Sync",
+    "uuid": "e3d096c2-d386-489c-b26b-074bac0a73f8",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "Count"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
